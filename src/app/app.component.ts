@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-  region = 'MACAU';
+  region = 'MACAU'; //assuming this is the region that you used in the api.
 
   ngOnInit() {
     if (this.region !== 'CYPRUS') {
